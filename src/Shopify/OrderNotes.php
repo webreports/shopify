@@ -7,7 +7,7 @@ class OrderNotes
     const NOTE_ATTRIBUTES_KEY = "note_attributes";
 
     /** @return array */
-    public function getOrderNotes(array $order)
+    public static function getOrderNotes(array $order)
     {
         $orderNotes = array();
         if (array_key_exists(self::NOTE_ATTRIBUTES_KEY, $order)) {

@@ -15,7 +15,7 @@ class OrderNotesTest extends TestCase
     {
         $this->orderNotes = new OrderNotes();
     }
-    
+
     public function testGetOrderNotesEmptyArray()
     {
         $orderArray = [];

@@ -9,7 +9,8 @@
         "optimize-autoloader": true
     },
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "adbario/php-dot-notation": "^2.2"
     },
     "require-dev": {
         "phpunit/phpunit": "6"
