@@ -4,7 +4,7 @@ The components for Shopify integration within the WebReports framework.
 
 ## Installation
 
-Minimum PHP Version: 5.6
+Minimum PHP Version: 7.0
 
 ```bash
 composer require webreports/shopify
